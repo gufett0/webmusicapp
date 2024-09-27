@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title> Mio sito</title> <!-- reflected on the tab-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="header">
+        <!-- <h1>Hello World</h1> -->
+        <h1>This is me.</h1>
+        <p>Welcome to my creative world</p>
+    </div>
+
+    <div class="navbar">
+        <a href="https://www.google.com"> New releases </a>
+
+        <a href="https://www.google.com"> My projects </a>
+
+        <a href="mailto:marco.esposito@polimi.it" class="right">Contact me!</a>
+    </div>
+
+    <!--
+    Create a 2-column layout, divided into a "side content" and a "main content".
+    -->
+    <div class="row">
+
+        <div class="side">
+            <h3>About me</h3>
+            <p>I am a phd student at DEIB teaching coding stuff to Music Eng people. </p>
+
+            <h5>My alterego:</h5>
+
+            <img class="fit-picture" src="assets/me-beach.webp" alt="me" />
+
+            <!-- <div class="fakeimg" style="height:200px;"> Image </div> -->
+
+        </div>
+
+        <div class="main">
+
+            <p>This is the main loop:</p>
+            <pre><code>
+def fm1
+    [60, 62, 64, 60].each do |nota|
+    play nota
+    sleep 0.5
+    end
+    puts "barr 1"
+end
+            </code></pre>
+
+            <!-- <p>my music goes here </p> -->
+
+            <!-- Audio element with controls -->
+            <audio controls>
+                <source src="assets/sonicpi_class1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <p>Discover more <a href="https://www.google.com" target="_blank">here</a></p>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer">
+        <h2>Creative Commons</h2>
+    </div>
+
+
+</body>
+
+
+</html>
